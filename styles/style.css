@@ -384,16 +384,27 @@ width: 450px; */
       font-size: 19px;
    }
  }
+
+
 /* media query for tablet devices    */
 @media screen and (min-width: 577px) and (max-width: 776px) {
    .top-banner{
-      width: 95%;
-      height: 100%;
+      width: 85%;
+      height: 85%;
       margin: 26px 23px;
    }
    .top-banner-text{
       background-color: red;
-      width: 80%;
+      gap: 6px;
+      /* align-items: center; */
+      /* background-color: red; */
+      width: 100%;
+      height: 100%;
+      font-size: 14px;
+   }
+   .top-banner-text-heading>h1{
+      font-size: 40px;
+      line-height: 37px;
    }
    .top-banner-right{
       background-color: skyblue;
