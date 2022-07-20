@@ -112,6 +112,9 @@ i {
    font-size: 20px;
    /* background-color: aqua; */
 }
+.link:hover{
+   background-color: red;
+}
 
 /* blogs */
 .blogs-section {
