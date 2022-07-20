@@ -421,12 +421,11 @@ width: 450px; */
       grid-template-columns: repeat(3,1fr);
       column-gap: 20px;
       height: 100px;
-     
       background-color: white;
    }
    .link{
-      border: 1px solid black;
-      padding: 10px;
+      border: 1px solid lightslategray;
+      padding: 10px 0px;
    }
    .blogs{
       grid-template-columns: repeat(2,1fr);
