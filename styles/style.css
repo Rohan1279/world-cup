@@ -8,18 +8,9 @@
    padding: 0;
    font-family: 'Open Sans', sans-serif;
    font-family: 'Poppins', sans-serif;
-   /* display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center; */
 }
 
-main{
-   /* display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center; */
-}
+
 
 /*------------
  top banner starts
@@ -39,7 +30,7 @@ main{
    display: flex;
    overflow: hidden;
    border-radius: 25px;
-  
+   transition: all .3s ease-in-out;
    /* height: 45vw;
    width: 90vw;
    margin: 40px 160px;
@@ -60,6 +51,7 @@ main{
    justify-content: center;
    gap: 30px;
    padding: 0px 50px;
+   transition:  transform .3s ease-in-out;
    /*
    display: flex;
    flex-direction: column;
@@ -99,20 +91,22 @@ i {
    width: 50%;
    height: 100%;
 }
-
 .top-banner-right>img {
-  
  height: 100%;
-
-
-
- 
- 
-   /* width: 95vw;
-   position: relative;
-   top: 140px;
-width: 450px; */
-
+ transition: all .3s ease-in-out;
+}
+.top-banner-right:hover img{ 
+      transform: scale(1.2);
+      
+      filter: drop-shadow(40px -40px 70px  green)
+      drop-shadow(90px 20px 10px  rgb(238, 236, 137))
+      drop-shadow(10px 90px 70px  rgb(54, 82, 247));
+      /* box-shadow: -68px -65px 107px -30px rgba(244,247,114,0.72); */
+      /* position: relative;
+      left: 30px; */
+}
+.top-banner:hover .top-banner-text{
+   transform: scale(.9);
 }
 
 /*------------
@@ -132,15 +126,16 @@ width: 450px; */
    flex-direction: column;
    justify-content: space-evenly;
    align-items: center;
+   
 }
 
 .link {
    background-color: white;
-   width: 190px;
+   width: 200px;
    padding: 10px;
    border-radius: 7px;
-   /* height: 30px; */
    text-align: center;
+
 }
 
 .link a {
@@ -176,7 +171,11 @@ width: 450px; */
    height: 315px;
    overflow: hidden;
    border-radius: 15px;
+   transition: box-shadow .5s;
    /* background-color: aqua; */
+}
+.blog:hover{
+   box-shadow: -2px 0px 43px -15px rgba(82, 81, 82, 1);
 }
 .blog-thumbnail-area{
    /* background-color: red; */
@@ -345,12 +344,10 @@ width: 450px; */
       justify-content: center;
    }
    .top-banner-right img{
-      /* width: 100%; */
       height:100%;
       object-fit: cover;
-     
-      /* align-items: center; */
    }
+   
    .links{
       background-color: white;
    }
