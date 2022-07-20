@@ -13,13 +13,22 @@ justify-content: center;
 align-items: center; */
 }
 
+main{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
 /*------------
  top banner starts
  -------------*/
 .top-banner {
    background-color: black;
-   height: 87vh;
-   margin: 40px 120px;
+   height: 45vw;
+   width: 90vw;
+   /* height: 87vh; */
+   margin: 40px 160px;
    /* padding: 20px; */
    display: flex;
    justify-content: center;
@@ -31,7 +40,7 @@ align-items: center; */
 
 .top-banner-left {
    /* background-color: red; */
-   /* width: 50%; */
+   width: 50%;
    /* height: 100%; */
    display: flex;
    flex-direction: column;
@@ -41,7 +50,7 @@ align-items: center; */
 }
 
 .top-banner-text {
-   background-color: royalblue;
+   /* background-color: royalblue; */
    color: white;
    font-size: 14px;
    margin-bottom: 20px;
@@ -70,13 +79,17 @@ i {
 
 .top-banner-right {
    /* background-color: blueviolet; */
-   width: 80%;
-   /* height: 100vh; */
+   width: 70%;
+   height: 100%;
    overflow: hidden;
 }
 
 .top-banner-right img {
-   width: 85vh;
+   /* width: 95vw; */
+   position: relative;
+   top: 140px;
+width: 450px;
+
 }
 
 /*------------
@@ -243,7 +256,7 @@ i {
  footer starts
  ---------------------*/
  footer{
-   height: 240px;
+   height: 100%;
    background-color: black;
    color: white;
    text-align: center;
@@ -266,7 +279,69 @@ i {
  .authorship-information span{
    margin: 0px 10px;
  }
- 
+
  /*--------------------
  footer starts ends
  ---------------------*/
+
+/*----------------
+ media queries start 
+ ----------------- */
+
+
+/* media query for mobile devices   */
+@media screen and (max-width: 576px) {
+   .top-banner{
+      flex-direction: column;
+      height: 100%;
+      margin: 26px 23px;
+   }
+   .top-banner-left{
+      align-items: center;
+   }
+   .top-banner-text{
+      text-align: center;
+   }
+   .top-banner-right img{
+      width: 100%;
+      top: 0px;
+   }
+   .links{
+      /* width: 100%; */
+      background-color: white;
+   }
+   .link{
+      border: 1px solid black;
+      padding: 10px
+   }
+
+
+   .blogs-section{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0;
+   }
+   .blogs{
+      grid-template-columns: repeat(1,1fr);
+      row-gap: 80px;
+      /* width: 100vh; */
+   }
+   .blog{
+      /* background-color: aqua; */
+      width: 80vw;
+      height: 100vh;
+   }
+   .blog-text-area{
+      width: 85%;
+      margin-top: 0px;
+      line-height: 90px;
+      padding: 30px;
+      font-size: 19px;
+   }
+}
+
+ /*----------------
+ media queries end 
+ ----------------- */
+ 
