@@ -156,3 +156,35 @@ i {
    /* background-color: rebeccapurple; */
    line-height: 20px;
 }
+/*--------------------
+ blog-section ends
+ ---------------------*/
+
+ /*--------------------
+ footer starts
+ ---------------------*/
+ footer{
+   height: 240px;
+   background-color: black;
+   color: white;
+   text-align: center;
+   padding-top: 30px;
+ }
+ footer>h2{
+   font-size: 30px;
+   margin-top: 20px;
+ }
+ footer hr{
+   margin: 30px 165px;
+    background-image: linear-gradient(to right, rgb(247, 247, 247) , rgb(128, 128, 128), rgb(247, 247, 247) );
+    border: 0;
+    height: .05em;
+ }
+ .authorship-information{
+   /* background-color: red; */
+   margin: 40px;
+ }
+ .authorship-information span{
+   margin: 0px 10px;
+ }
+ 
