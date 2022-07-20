@@ -6,6 +6,10 @@
     padding: 0;
     font-family: 'Open Sans', sans-serif;
 font-family: 'Poppins', sans-serif;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 }
 /*------------
  top banner starts
@@ -69,22 +73,67 @@ font-family: 'Poppins', sans-serif;
  -------------*/
 
  /*--------------------
- contents-section starts
+ blog-section starts
  ---------------------*/
+ /* blogs-links */
  .links{
-    width: 312px;
-    height: 312px;
+    width: 260px;
+    height: 295px;
     background-color: black;
+   border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+   justify-content: space-evenly;
+   align-items: center;
  }
  .link{
-    text-align: center;
- }
+   background-color: white;
+   width: 190px;
+   padding: 10px;
+   border-radius: 7px;
+   /* height: 30px; */
+   text-align: center;
+}
  .link a{
     text-decoration: none;
-    color: white;
+    color: black;
     font-size: 20px;
-    background-color: aqua;
-
-
+    /* background-color: aqua; */
  }
- 
+ /* blogs */
+ .blogs-section{
+   display: flex;
+   justify-content: space-around;
+   column-gap: 20px;
+   width: 1000px;
+ }
+ .blogs{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   column-gap: 20px;
+   row-gap: 20px;
+ }
+ .blog{
+   border: 1px solid rgb(211, 211, 211);
+   width: 300px;
+   height: 315px;
+   overflow: hidden;
+   border-radius: 15px;
+ }
+ .blog-text-area{
+   /* background-color: aqua; */
+   line-height: 30px;
+   padding: 15px;
+ }
+ .blog-link a{
+   text-decoration: none;
+   color: black;
+   border: 1px solid black;
+   padding: 3px 11px;
+   border-radius: 5px;
+ }
+ .blog-title h4{
+   /* background-color: rebeccapurple; */
+   line-height: 20px;
+   }
+
