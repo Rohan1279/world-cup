@@ -317,17 +317,22 @@ width: 450px; */
       align-items: center;
    }
     .top-banner-text{
+      gap: 0px;
+      /* align-items: center; */
       background-color: red;
       width: 100%;
       height: 50%;
-      font-size: 18px;
+      font-size: 14px;
       text-align: center;
-      padding: 5px 20px;
+      padding: 10px 26px;
       align-items: center;
    }
+   .top-banner-text-heading{
+      padding: 10px;
+   }
    .top-banner-text-heading>h1 {
-      font-size: 1.6em;
-      line-height: 28px;
+      font-size: 22px;
+      line-height: 23px;
    } 
   
    
@@ -411,4 +416,48 @@ width: 450px; */
  /*----------------
  media queries end 
  ----------------- */
- 
+ /* media query for tablet devices  
+@media screen and (min-width: 577px) and (max-width: 776px) {
+   .top-banner{
+      width: 95%;
+      height: 100%;
+      margin: 26px 23px;
+   }
+   .top-banner-left{
+      background-color: red;
+      width: 80%;
+   }
+   .top-banner-right{
+      background-color: skyblue;
+      
+   }
+   .blogs-section{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0;
+   }
+   .links{
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      column-gap: 20px;
+      height: 100px;
+     
+      background-color: white;
+   }
+   .link{
+      border: 1px solid black;
+      padding: 10px;
+   }
+   .blogs{
+      grid-template-columns: repeat(2,1fr);
+      margin-bottom: 20px;
+      
+   }
+   .blog{
+      width: 330px;
+    height: 340px;
+   }
+
+}
+ */
