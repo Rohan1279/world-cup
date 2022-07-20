@@ -394,7 +394,7 @@ width: 450px; */
       margin: 26px 23px;
    }
    .top-banner-text{
-      background-color: red;
+      /* background-color: red; */
       gap: 6px;
       /* align-items: center; */
       /* background-color: red; */
@@ -407,7 +407,7 @@ width: 450px; */
       line-height: 37px;
    }
    .top-banner-right{
-      background-color: skyblue;
+      /* background-color: skyblue; */
       
    }
    .blogs-section{
