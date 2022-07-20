@@ -25,70 +25,141 @@ main{
  -------------*/
 .top-banner {
    background-color: black;
-   height: 45vw;
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   /* height: 45vw;
    width: 90vw;
-   /* height: 87vh; */
    margin: 40px 160px;
-   /* padding: 20px; */
    display: flex;
    justify-content: center;
    align-items: center;
    border-radius: 25px;
-   overflow: hidden;
+   overflow: hidden; */
 
 }
 
 .top-banner-left {
    /* background-color: red; */
-   width: 50%;
-   /* height: 100%; */
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   /* width: 50%;
    display: flex;
    flex-direction: column;
    justify-content: space-between;
-   padding: 50px 80px;
+   padding: 50px 80px; */
 
 }
 
 .top-banner-text {
    /* background-color: royalblue; */
-   color: white;
+  
+  
+  
+  
+  
+  
+   /* color: white;
    font-size: 14px;
-   margin-bottom: 20px;
+   margin-bottom: 20px; */
 }
 
 .top-banner-text>h1 {
-   font-size: 57px;
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   /* font-size: 57px;
    line-height: 60px;
-   margin-bottom: 20px;
+   margin-bottom: 20px; */
 }
 
 .top-banner-link {
-   background-color: crimson;
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   /* background-color: crimson;
    width: 140px;
    padding: 10px;
-   border-radius: 7px;
+   border-radius: 7px; */
 }
 
 .top-banner-link a,
 i {
-   text-decoration: none;
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   /* text-decoration: none;
    color: white;
    font-size: 16px;
-   padding: 0px 10px;
+   padding: 0px 10px; */
 }
 
 .top-banner-right {
    /* background-color: blueviolet; */
-   width: 70%;
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   /* width: 70%;
    height: 100%;
-   overflow: hidden;
+   overflow: hidden; */
 }
 
 .top-banner-right img {
-   /* width: 95vw; */
+ 
+ 
+ 
+ 
+ 
+   /* width: 95vw;
    position: relative;
    top: 140px;
-width: 450px;
+width: 450px; */
 
 }
 
