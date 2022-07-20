@@ -139,6 +139,13 @@ i {
    height: 315px;
    overflow: hidden;
    border-radius: 15px;
+   background-color: aqua;
+}
+.blog-thumbnail-area{
+   background-color: red;
+}
+.blog-thumbnail-area img{
+   width: 100%;
 }
 
 .blog-text-area {
