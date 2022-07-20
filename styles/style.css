@@ -139,10 +139,10 @@ i {
    height: 315px;
    overflow: hidden;
    border-radius: 15px;
-   background-color: aqua;
+   /* background-color: aqua; */
 }
 .blog-thumbnail-area{
-   background-color: red;
+   /* background-color: red; */
 }
 .blog-thumbnail-area img{
    width: 100%;
@@ -150,8 +150,12 @@ i {
 
 .blog-text-area {
    /* background-color: aqua; */
-   line-height: 30px;
-   padding: 15px;
+   line-height: 50px;
+   padding: 0px 15px;
+   color: black;
+}
+.blog-text-area i{
+   color: black;
 }
 
 .blog-link a {
@@ -229,13 +233,11 @@ i {
    /* background-color: rebeccapurple; */
    line-height: 20px;
 }
-
-
-
-
 /*----------------
  upcoming-match section start  
  -----------------*/
+
+
  /*--------------------
  footer starts
  ---------------------*/
