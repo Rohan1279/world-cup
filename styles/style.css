@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap');
 
 * {
+   box-sizing: border-box;
    margin: 0;
    padding: 0;
    font-family: 'Open Sans', sans-serif;
@@ -14,27 +15,30 @@ align-items: center; */
 }
 
 main{
-   display: flex;
+   /* display: flex;
    flex-direction: column;
    justify-content: center;
-   align-items: center;
+   align-items: center; */
 }
 
 /*------------
  top banner starts
  -------------*/
+ .container{
+   /* background-color: aqua; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+
+ }
 .top-banner {
    background-color: black;
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+   height: 90vh;
+   width: 90%;
+   display: flex;
+   overflow: hidden;
+   border-radius: 25px;
   
    /* height: 45vw;
    width: 90vw;
@@ -42,26 +46,21 @@ main{
    display: flex;
    justify-content: center;
    align-items: center;
-   border-radius: 25px;
+   
    overflow: hidden; */
 
 }
 
-.top-banner-left {
-   /* background-color: red; */
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   /* width: 50%;
+.top-banner-text {
+   /* background-color: skyblue; */
+   width: 50%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   gap: 30px;
+   padding: 0px 50px;
+   /*
    display: flex;
    flex-direction: column;
    justify-content: space-between;
@@ -69,91 +68,44 @@ main{
 
 }
 
-.top-banner-text {
-   /* background-color: royalblue; */
-  
-  
-  
-  
-  
-  
-   /* color: white;
-   font-size: 14px;
-   margin-bottom: 20px; */
+.top-banner-text-heading {
+  color: white;
 }
 
-.top-banner-text>h1 {
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   /* font-size: 57px;
+.top-banner-text-heading>h1 {
+   font-size: 57px;
    line-height: 60px;
-   margin-bottom: 20px; */
+   margin-bottom: 20px;
 }
 
 .top-banner-link {
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   /* background-color: crimson;
-   width: 140px;
-   padding: 10px;
-   border-radius: 7px; */
+   /* margin-top: -130px; */
+   background-color: crimson;
+   width: 180px;
+   padding: 13px;
+   border-radius: 7px;
 }
 
 .top-banner-link a,
 i {
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-   /* text-decoration: none;
+   text-decoration: none;
    color: white;
    font-size: 16px;
-   padding: 0px 10px; */
+   padding: 0px 10px;
 }
 
 .top-banner-right {
    /* background-color: blueviolet; */
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   /* width: 70%;
+   width: 50%;
    height: 100%;
-   overflow: hidden; */
 }
 
-.top-banner-right img {
- 
- 
- 
+.top-banner-right>img {
+  
+ height: 100%;
+
+
+
  
  
    /* width: 95vw;
@@ -361,7 +313,7 @@ width: 450px; */
 
 
 /* media query for mobile devices   */
-@media screen and (max-width: 576px) {
+/* @media screen and (max-width: 576px) {
    .top-banner{
       flex-direction: column;
       height: 100%;
@@ -378,7 +330,6 @@ width: 450px; */
       top: 0px;
    }
    .links{
-      /* width: 100%; */
       background-color: white;
    }
    .link{
@@ -396,10 +347,8 @@ width: 450px; */
    .blogs{
       grid-template-columns: repeat(1,1fr);
       margin-bottom: 20px;
-      /* width: 100vh; */
    }
    .blog{
-      /* background-color: aqua; */
       width: 80vw;
       height: 100vh;
    }
@@ -410,7 +359,7 @@ width: 450px; */
       padding: 30px;
       font-size: 19px;
    }
-}
+} */
 
  /*----------------
  media queries end 
