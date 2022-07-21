@@ -361,6 +361,9 @@ i {
       padding: 30px;
       font-size: 19px;
    }
+   .footer hr{
+   margin: 0px 65px;   
+   }
  }
 
 
@@ -393,7 +396,7 @@ i {
    .links{
       display: flex;
       flex-direction: row;
-      justify-content: space-evenly;
+      justify-content: center;
       width: 117vw;
       /* grid-template-columns: repeat(3,1fr); */
       column-gap: 20px;
