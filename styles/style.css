@@ -111,22 +111,21 @@ i {
    
 }
 
-.link {
+#active{
    background-color: white;
    width: 200px;
    padding: 10px;
    border-radius: 7px;
    text-align: center;
-
-}
-
-.link a {
    text-decoration: none;
+   border: 1px solid lightslategray;
    color: black;
    font-size: 20px;
-   /* background-color: aqua; */
 }
-.link:hover{
+#active:hover{
+   background-color: rgb(201, 207, 212);
+}
+#active:focus{
    background-color: red;
 }
 
@@ -157,9 +156,7 @@ i {
 .blog:hover{
    box-shadow: -2px 0px 43px -15px rgba(82, 81, 82, 1);
 }
-.blog-thumbnail-area{
-   /* background-color: red; */
-}
+
 .blog-thumbnail-area img{
    width: 100%;
 }
@@ -290,11 +287,16 @@ i {
 /*----------------
  media queries start 
  ----------------- */
+ /* media queries for mobile devices    */
  @media screen and (max-width: 576px) {
+   body{
+      transition: all .5s ease-in-out;
+   }
    .top-banner{
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      
    }
     .top-banner-text{
       gap: 0px;
@@ -331,11 +333,10 @@ i {
    .links{
       background-color: white;
    }
-   .link{
+   #active{
       border: 1px solid lightslategray;
       width: auto;
       padding: 7px 18px;
-
    }
 
 
@@ -383,10 +384,6 @@ i {
       font-size: 40px;
       line-height: 37px;
    }
-   .top-banner-right{
-      /* background-color: skyblue; */
-      
-   }
    .blogs-section{
       flex-direction: column;
       justify-content: center;
@@ -394,15 +391,20 @@ i {
       padding: 0;
    }
    .links{
-      display: grid;
-      grid-template-columns: repeat(3,1fr);
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      width: 117vw;
+      /* grid-template-columns: repeat(3,1fr); */
       column-gap: 20px;
       height: 100px;
       background-color: white;
    }
-   .link{
+   
+   #active{
       border: 1px solid lightslategray;
-      padding: 10px 0px;
+      padding:10px;
+      
    }
    .blogs{
       grid-template-columns: repeat(2,1fr);
